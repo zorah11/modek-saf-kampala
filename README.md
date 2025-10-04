@@ -1,5 +1,8 @@
 # MODEK: Turning Waste Oil into Clean Skies
 
+<img width="1920" height="1080" alt="MODEK - Team Aether" src="https://github.com/user-attachments/assets/70084f1f-6273-4130-95cd-29883accd294" />
+
+
 ## Project Overview
 MODEK collects used cooking oil from households and businesses in Uganda and converts it into Sustainable Aviation Fuel (SAF). This reduces environmental pollution, supports green aviation, and creates income opportunities.
 
@@ -18,7 +21,3 @@ We collect and process used cooking oil to supply Sustainable Aviation Fuel, tur
 ## Tech Stack
 - **Frontend & Backend:** Flutter + Firebase
 
-## How to Run
-1. Clone the repository:
-```sh
-git clone <YOUR_GIT_URL>
