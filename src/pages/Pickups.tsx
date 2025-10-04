@@ -4,48 +4,48 @@ import { Calendar, MapPin, Clock, Plus } from "lucide-react";
 
 const Pickups = () => {
   return (
-    <div className="pb-20 px-4 space-y-6 max-w-md mx-auto">
+    <div className="pb-20 px-4 space-y-6 max-w-md mx-auto animate-fade-in">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Pickups</h1>
-        <Button className="gap-2">
+        <h1 className="text-3xl font-bold">Pickups</h1>
+        <Button className="gap-2 shadow-soft hover:shadow-elevated transition-all hover:scale-[1.02]">
           <Plus className="w-4 h-4" />
           Schedule
         </Button>
       </div>
 
       {/* Upcoming Pickup */}
-      <Card className="p-5 border-primary/50 bg-primary/5">
-        <div className="flex items-start gap-3">
-          <div className="p-3 rounded-xl bg-primary/10">
-            <Calendar className="w-6 h-6 text-primary" />
+      <Card className="p-6 border-primary/50 bg-gradient-to-br from-primary/10 to-primary/5 shadow-soft">
+        <div className="flex items-start gap-4">
+          <div className="p-3 rounded-2xl bg-primary/20">
+            <Calendar className="w-7 h-7 text-primary" />
           </div>
           <div className="flex-1">
-            <div className="flex justify-between items-start mb-3">
+            <div className="flex justify-between items-start mb-4">
               <div>
-                <h3 className="font-semibold text-lg">Next Pickup</h3>
-                <p className="text-sm text-muted-foreground">Monthly Schedule</p>
+                <h3 className="font-bold text-xl">Next Pickup</h3>
+                <p className="text-sm text-muted-foreground mt-1">Monthly Schedule</p>
               </div>
-              <span className="px-3 py-1 bg-primary/20 text-primary text-xs font-medium rounded-full">
+              <span className="px-3 py-1.5 bg-primary/20 text-primary text-xs font-semibold rounded-full">
                 Upcoming
               </span>
             </div>
             
-            <div className="space-y-2">
-              <div className="flex items-center gap-2 text-sm">
-                <Calendar className="w-4 h-4 text-muted-foreground" />
-                <span>November 15, 2025</span>
+            <div className="space-y-3">
+              <div className="flex items-center gap-3 text-sm">
+                <Calendar className="w-4 h-4 text-primary" />
+                <span className="font-medium">November 15, 2025</span>
               </div>
-              <div className="flex items-center gap-2 text-sm">
-                <Clock className="w-4 h-4 text-muted-foreground" />
-                <span>9:00 AM - 12:00 PM</span>
+              <div className="flex items-center gap-3 text-sm">
+                <Clock className="w-4 h-4 text-primary" />
+                <span className="font-medium">9:00 AM - 12:00 PM</span>
               </div>
-              <div className="flex items-center gap-2 text-sm">
-                <MapPin className="w-4 h-4 text-muted-foreground" />
-                <span>Kampala, Uganda</span>
+              <div className="flex items-center gap-3 text-sm">
+                <MapPin className="w-4 h-4 text-primary" />
+                <span className="font-medium">Kampala, Uganda</span>
               </div>
             </div>
 
-            <Button variant="outline" className="w-full mt-4">
+            <Button variant="outline" className="w-full mt-5 hover:bg-primary/5 transition-all">
               Reschedule
             </Button>
           </div>

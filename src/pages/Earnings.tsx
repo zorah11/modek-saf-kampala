@@ -4,52 +4,53 @@ import { Wallet, TrendingUp, ArrowUpRight, Download } from "lucide-react";
 
 const Earnings = () => {
   return (
-    <div className="pb-20 px-4 space-y-6 max-w-md mx-auto">
+    <div className="pb-20 px-4 space-y-6 max-w-md mx-auto animate-fade-in">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold">Earnings</h1>
-        <Button variant="outline" size="sm" className="gap-2">
+        <h1 className="text-3xl font-bold">Earnings</h1>
+        <Button variant="outline" size="sm" className="gap-2 hover:shadow-soft transition-all">
           <Download className="w-4 h-4" />
           Export
         </Button>
       </div>
 
       {/* Total Balance */}
-      <Card className="p-6 bg-gradient-gold text-primary-foreground">
-        <div className="space-y-4">
+      <Card className="p-6 bg-gradient-gold text-primary-foreground shadow-elevated border-0 overflow-hidden relative">
+        <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full -mr-16 -mt-16" />
+        <div className="space-y-5 relative z-10">
           <div className="flex justify-between items-start">
             <div>
-              <p className="text-sm opacity-90">Total Balance</p>
-              <h2 className="text-5xl font-bold mt-2">45,000</h2>
+              <p className="text-sm opacity-90 font-medium">Total Balance</p>
+              <h2 className="text-6xl font-bold mt-2">45,000</h2>
               <p className="text-sm opacity-90 mt-1">UGX</p>
             </div>
-            <div className="p-3 bg-white/20 rounded-full">
-              <Wallet className="w-6 h-6" />
+            <div className="p-3 bg-white/20 rounded-2xl backdrop-blur-sm">
+              <Wallet className="w-7 h-7" />
             </div>
           </div>
-          <Button variant="secondary" className="w-full" size="lg">
+          <Button variant="secondary" className="w-full h-12 font-semibold hover:scale-[1.02] transition-all" size="lg">
             Withdraw Funds
           </Button>
         </div>
       </Card>
 
       {/* Stats */}
-      <div className="grid grid-cols-2 gap-3">
-        <Card className="p-4">
-          <div className="flex items-center gap-2 text-muted-foreground mb-1">
+      <div className="grid grid-cols-2 gap-4">
+        <Card className="p-5 hover:shadow-soft transition-all border-border/50">
+          <div className="flex items-center gap-2 text-muted-foreground mb-2">
             <TrendingUp className="w-4 h-4" />
-            <span className="text-xs">This Month</span>
+            <span className="text-xs font-medium">This Month</span>
           </div>
-          <p className="text-2xl font-bold">15,000</p>
-          <p className="text-xs text-muted-foreground">UGX</p>
+          <p className="text-3xl font-bold">15,000</p>
+          <p className="text-xs text-muted-foreground mt-1">UGX</p>
         </Card>
 
-        <Card className="p-4">
-          <div className="flex items-center gap-2 text-muted-foreground mb-1">
+        <Card className="p-5 hover:shadow-soft transition-all border-border/50">
+          <div className="flex items-center gap-2 text-muted-foreground mb-2">
             <ArrowUpRight className="w-4 h-4" />
-            <span className="text-xs">Total Liters</span>
+            <span className="text-xs font-medium">Total Liters</span>
           </div>
-          <p className="text-2xl font-bold">45</p>
-          <p className="text-xs text-muted-foreground">Liters</p>
+          <p className="text-3xl font-bold">45</p>
+          <p className="text-xs text-muted-foreground mt-1">Liters</p>
         </Card>
       </div>
 
