@@ -1,6 +1,7 @@
 # MODEK: Turning Waste Oil into Clean Skies
 
-<img width="1920" height="1080" alt="MODEK - Team Aether" src="https://github.com/user-attachments/assets/70084f1f-6273-4130-95cd-29883accd294" />
+<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/630cd1d9-0c2e-4398-9036-ca565084df8d" />
+
 
 
 ## Project Overview
