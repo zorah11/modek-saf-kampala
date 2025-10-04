@@ -1,8 +1,7 @@
 # MODEK: Turning Waste Oil into Clean Skies
 
-<img width="1920" height="1080" alt="5" src="https://github.com/user-attachments/assets/630cd1d9-0c2e-4398-9036-ca565084df8d" />
 
-
+<img width="2816" height="1762" alt="image (2)" src="https://github.com/user-attachments/assets/98a2a4a9-913f-4f36-a0dd-45a7e723c8e1" />
 
 ## Project Overview
 MODEK collects used cooking oil from households and businesses in Uganda and converts it into Sustainable Aviation Fuel (SAF). This reduces environmental pollution, supports green aviation, and creates income opportunities.
